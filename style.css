@@ -1,0 +1,44 @@
+body{
+    background:  rgb(0, 71, 62);
+}
+.titulo{
+    font-weight:400;
+    font-size:30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid white;
+    
+}
+
+.curriculum{
+    width: 800px;
+    height: auto;
+    display: flex;
+    margin: 50px auto;
+}
+.curriculum .curriculum_derecha {
+    width: 280px;
+    background: rgb(32, 29, 29);
+    color: white;
+}
+.curriculum .curriculum_derecha .curriculum_perfil{
+    background-color:rgb(226, 226, 41);
+    color: black;
+}
+.curriculum .curriculum_derecha .curriculum_perfil img{
+    width: 100%;
+    clip-path: polygon(51% 100%, 0 0, 100% 0);
+}
+.curriculum .curriculum_derecha .curriculum_sobremi{
+    background: rgb(32, 29, 29);
+}
+.curriculum .curriculum_izquierda {
+    width: 520px;
+    background: white;
+    padding: 25px;
+}
+.curriculum .curriculum_izquierda .titulo{
+    height: 30px;
+    width:300px;
+    background-color: gray;
+}
+
